@@ -1,5 +1,9 @@
 # COOP: Cooperative Ordering Of Pizza
 
+[![🚀 Deploy](https://github.com/XITASO/coop/actions/workflows/deploy.yml/badge.svg)](https://github.com/XITASO/coop/actions/workflows/deploy.yml)
+
+This app is hosted on [fly.io](https://coop-erl.fly.dev/).
+
 ## Setup
 
 * Install [git](https://git-scm.com/) and [npm](https://nodejs.org/)
