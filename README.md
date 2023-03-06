@@ -7,3 +7,7 @@
 * Run `npm install` to install dev dependencies
 * Run `npm run dev` to start dev server
 * Happy coding :)
+
+## Commands:
+
+* Run `npm run typecheck` to validate types
