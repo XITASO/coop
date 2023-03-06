@@ -7,6 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import Navbar from "./navbar";
 
 import tailwindStylesheetUrl from "./styles/tailwind.css";
 
@@ -16,7 +17,7 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Remix Notes",
+  title: "Coop",
   viewport: "width=device-width,initial-scale=1",
 });
 
@@ -28,7 +29,10 @@ export default function App() {
         <Links />
       </head>
       <body className="h-full">
-        <Outlet />
+        <Navbar/>
+        <div className="p-4">
+          <Outlet />
+        </div>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
