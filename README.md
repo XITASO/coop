@@ -13,6 +13,8 @@ This app is hosted on [fly.io](https://coop-erl.fly.dev/).
 * Run `npm run setup` to 
 * Run `npm run dev` to start dev server
 * Happy coding :)
+* Optional: Run `git checkout skeleton` to start with blank "Hello World!" app
+
 
 ## Commands:
 
