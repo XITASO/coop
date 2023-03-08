@@ -10,7 +10,7 @@ This app is hosted on [fly.io](https://coop-erl.fly.dev/).
 * Run `git clone https://github.com/XITASO/coop` to download this repository
 * Copy `.env.example` to `.env` and fill
 * Run `npm install` to install dev dependencies
-* Run `npm run setup` to 
+* Run `npm run setup` to set up the database
 * Run `npm run dev` to start dev server
 * Happy coding :)
 * Optional: Run `git checkout skeleton` to start with blank "Hello World!" app
