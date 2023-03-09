@@ -8,6 +8,7 @@ on:
       - mk
       - md
       - jm
+      - mw
   pull_request: {}
 
 permissions:
